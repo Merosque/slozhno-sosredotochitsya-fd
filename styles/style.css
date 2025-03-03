@@ -2,4 +2,75 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  font-family: 'IBM Plex mono', sans-serif;
+  font-size: 18px;
+
+}
+
+.rec_wrapper {
+  position: relative;
+}
+
+.rec_decor_element {
+  position: absolute;
+  display: flex;
+  inset-block-start: 10px;
+  inset-inline-end: 27px;
+  text-transform: uppercase ;
+  color: var(--decoration-color);
+}
+
+.rec_decor_element::after {
+  content: "";
+  position: relative;
+  inset-block-start: 8px;
+  inset-inline-start: 8px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--decoration-color);
+  box-shadow: 0px 0px 4px 2px var(--decoration-color);
+}
+
+.header {
+  display: grid;
+  grid-template-rows: 1fr min-content 1fr;
+  position: relative;
+  padding: 10px;
+}
+
+.decorated-zone::before {
+  content: "";
+  position: absolute;
+  align-self: flex-start;
+  border-block-start: 1px solid var(--decoration-color);
+  border-inline-end: 1px solid var(--decoration-color);
+  inline-size: 25px;
+  block-size: 25px;
+  inset-block-start: 10px;
+  inset-inline-end: 10px;
+}
+
+.decorated-zone::after {
+  content: "";
+  position: relative;
+  border-block-end: 1px solid var(--decoration-color);
+  border-inline-start: 1px solid var(--decoration-color);
+  inline-size: 25px;
+  block-size: 25px;
+  inset-inline-start: 10px;
+  inset-block-end: 10px;
+}
+
+.header-title {
+font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+color: var(--main-title-text-color);
+text-shadow: 4px 4px 0 var(--accent-color);
+line-height: 82.5%;
+}
+
+.title-decor {
+  background-color: var(--accent-color);
+  font-weight: bold;
+  line-height: 23.4px;
 }
