@@ -11,8 +11,10 @@
   --bg-color: var(--black);
   --text-color: var(--pink);
   --title-text-color: var(--black);
+  --content-title-color: var(--red);
   --header-bg-color: var(--red);
   --main-title-text-color: var(--fuchsia);
   --decoration-color: var(--red);
+  --bg-image: url(/images/cover-image-dark.png);
 }
 
