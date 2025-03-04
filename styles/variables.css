@@ -5,11 +5,11 @@
 :root {
   --black: #000028;
   --red: #ff0070;
-  --pink: #F1B2CE;
-  --fuchsia: #DB00FF;
+  --pink: #f1b2ce;
+  --fuchsia: #db00ff;
   --light-black: #353430;
-  --light-pink: #FFC2E6;
-  --shadow-pink: #FF8DCB;
+  --light-pink: #ffc2e6;
+  --shadow-pink: #ff8dcb;
   --accent-color: var(--red);
   --bg-color: var(--black);
   --text-color: var(--pink);
@@ -20,6 +20,5 @@
   --main-title-text-color: var(--fuchsia);
   --decoration-color: var(--red);
   --bg-image: url(/images/cover-image-dark.png);
-  --semi-transparent: rgba(255, 0, 0, .5);
+  --semi-transparent: rgba(255, 0, 112, 0.4);
 }
-

@@ -11,8 +11,8 @@
   */
   --black: #000028;
   --red: #ff0070;
-  --pink: #F1B2CE;
-  --fuchsia: #DB00FF;
+  --pink: #f1b2ce;
+  --fuchsia: #db00ff;
   --bg-color: var(--black);
   --text-color: var(--pink);
   --outline-color: var(--pink);
@@ -22,15 +22,15 @@
   --main-title-text-color: var(--fuchsia);
   --decoration-color: var(--red);
   --bg-image: url(/images/cover-image-dark.png);
-  --semi-transparent: rgba(255, 0, 112, .4);
+  --semi-transparent: rgba(255, 0, 112, 0.4);
 }
 
 .theme-dark .page {
   /* Вам также нужно будет написать ряд подобных селекторов */
   --black: #000028;
   --red: #ff0070;
-  --pink: #F1B2CE;
-  --fuchsia: #DB00FF;
+  --pink: #f1b2ce;
+  --fuchsia: #db00ff;
   --bg-color: var(--black);
   --text-color: var(--pink);
   --outline-color: var(--pink);
