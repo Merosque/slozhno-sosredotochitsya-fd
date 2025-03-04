@@ -7,6 +7,9 @@
   --red: #ff0070;
   --pink: #F1B2CE;
   --fuchsia: #DB00FF;
+  --light-black: #353430;
+  --light-pink: #FFC2E6;
+  --shadow-pink: #FF8DCB;
   --accent-color: var(--red);
   --bg-color: var(--black);
   --text-color: var(--pink);
