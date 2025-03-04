@@ -75,7 +75,7 @@
 }
 
 .header__theme-menu-item:hover {
-  border: 1px solid var(--transparent-red);
+  border: 1px solid var(--semi-transparent);
 } 
 
 .header__theme-menu-button_active {

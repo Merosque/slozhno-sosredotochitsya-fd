@@ -20,6 +20,6 @@
   --main-title-text-color: var(--fuchsia);
   --decoration-color: var(--red);
   --bg-image: url(/images/cover-image-dark.png);
-  --transparent-red: rgba(255, 0, 0, .5);
+  --semi-transparent: rgba(255, 0, 0, .5);
 }
 

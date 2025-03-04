@@ -46,6 +46,24 @@
       --main-title-text-color: var(--light-pink);
       --accent-color: var(--shadow-pink);
     }
+
+    @media (prefers-color-scheme: light) {
+      :root {
+        --light-black: #353430;
+        --light-pink: #FFC2E6;
+        --shadow-pink: #FF8DCB;
+        --decoration-color: var( --light-black);
+        --text-color: var(--light-black);
+        --bg-image: url(/images/cover-image-light.png);
+        --accent-color:  var(--light-black);
+        --main-title-text-color: var(--light-pink);
+        --accent-color: var(--shadow-pink);
+        --title-text-color: var(--light-black);
+        --content-title-color: var(--light-black);
+        --main-title-text-color: var(--light-pink);
+        --semi-transparent: rgba(50, 49, 45, .4);
+      }
+    }
 }
 
 .theme-light .page {
@@ -70,6 +88,10 @@
       --accent-color: var(--shadow-pink);
     }
 
+    .header__theme-menu-item:hover {
+      --semi-transparent: rgba(50, 49, 45, .4);
+    } 
+
     .title-decor {
       --title-text-color: var(--light-black);
       --accent-color: var(--shadow-pink);
@@ -92,3 +114,4 @@
       --accent-color: var(--shadow-pink);
     }
 }
+
