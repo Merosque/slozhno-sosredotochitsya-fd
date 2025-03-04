@@ -49,7 +49,7 @@
   --main-title-text-color: var(--fuchsia);
   --decoration-color: var(--red);
   --bg-image: url(/images/cover-image-dark.png);
-  --semi-transparent: rgba(255, 0, 112, .4);
+  --semi-transparent: rgba(255, 0, 112, 0.4);
 
   .rec_decor_element {
     position: absolute;

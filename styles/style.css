@@ -6,6 +6,7 @@
   font-size: 18px;
   color: var(--text-color);
   background-image: var(--bg-image);
+  background-color: var(--bg-color);
   background-position: center;
   background-attachment: fixed;
 }
@@ -331,7 +332,7 @@
 
   .street {
     grid-column: 2 / 4;
-    grid-row: 3 / 4;  
+    grid-row: 3 / 4;
   }
 
   .footer {
