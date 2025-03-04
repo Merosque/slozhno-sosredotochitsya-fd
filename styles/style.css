@@ -13,8 +13,8 @@
 .rec_decor_element {
   position: absolute;
   display: flex;
-  inset-block-start: 10px;
-  inset-inline-end: 27px;
+  inset-block-start: 20px;
+  inset-inline-end: 37px;
   text-transform: uppercase;
   color: var(--decoration-color);
 }
@@ -149,6 +149,10 @@
   margin-block-end: 20px;
 }
 
+.content-title.six-rows {
+  margin-block-end: 18px;
+}
+
 .text-content:not(:last-child) {
   margin-block-end: 20px;
 }
@@ -222,7 +226,8 @@
   .header {
     min-block-size: 1024px;
     padding-inline-end: 20px;
-    padding-inline-start: 20px;
+    padding-inline-start: 0px;
+    margin-block-end: 10px;
   }
 
   .header-title {
@@ -236,6 +241,7 @@
   .title-description {
     max-inline-size: 364px;
     justify-self: end;
+    margin-block-end: 10px;
   }
 
   .decorated-zone::before {
@@ -257,13 +263,17 @@
     padding-inline-start: 20px;
     padding-inline-end: 20px;
     margin-block-start: 60px;
-    margin-block-end: 60px;
+    margin-block-end: 59px;
   }
 
   .content-list {
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 20px;
+  }
+
+  .content-list:not(:last-child) {
+    margin-block-end: 80px;
   }
 
   .drop-concentration .text-content {
@@ -321,12 +331,11 @@
 
   .street {
     grid-column: 2 / 4;
-    grid-row: 3 / 4;
+    grid-row: 3 / 4;  
   }
 
   .footer {
     min-block-size: 1024px;
-    margin-block-start: 60px;
   }
 }
 
@@ -338,6 +347,7 @@
 
   .header-title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    padding-block-end: 10px;
   }
 
   .footer-title {
@@ -347,6 +357,8 @@
   .header__theme-menu {
     justify-self: center;
     align-self: start;
+    padding-block-start: 0px;
+    padding-inline-start: 20px;
   }
 
   .header__theme-menu-list {
@@ -356,15 +368,21 @@
 
   .title-description {
     max-inline-size: 491px;
+    margin-block-end: 20px;
   }
 
-  .drop-concentration {
+  .content-list.drop-concentration {
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
   }
 
   .drop-concentration .text-content {
     grid-row: 2 / 3;
     grid-column: auto;
+  }
+
+  .content-list {
+    column-gap: 10px;
   }
 
   .content-list:not(:last-child) {

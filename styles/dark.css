@@ -27,8 +27,8 @@
   .rec_decor_element {
     position: absolute;
     display: flex;
-    inset-block-start: 10px;
-    inset-inline-end: 27px;
+    inset-block-start: 20px;
+    inset-inline-end: 37px;
     text-transform: uppercase;
     color: var(--decoration-color);
   }
@@ -54,8 +54,8 @@
   .rec_decor_element {
     position: absolute;
     display: flex;
-    inset-block-start: 10px;
-    inset-inline-end: 27px;
+    inset-block-start: 20px;
+    inset-inline-end: 37px;
     text-transform: uppercase;
     color: var(--decoration-color);
   }
