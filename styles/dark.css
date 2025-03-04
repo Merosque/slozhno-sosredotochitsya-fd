@@ -23,6 +23,15 @@
   --decoration-color: var(--red);
   --bg-image: url(/images/cover-image-dark.png);
   --semi-transparent: rgba(255, 0, 112, 0.4);
+
+  .rec_decor_element {
+    position: absolute;
+    display: flex;
+    inset-block-start: 10px;
+    inset-inline-end: 27px;
+    text-transform: uppercase;
+    color: var(--decoration-color);
+  }
 }
 
 .theme-dark .page {
@@ -41,4 +50,13 @@
   --decoration-color: var(--red);
   --bg-image: url(/images/cover-image-dark.png);
   --semi-transparent: rgba(255, 0, 112, .4);
+
+  .rec_decor_element {
+    position: absolute;
+    display: flex;
+    inset-block-start: 10px;
+    inset-inline-end: 27px;
+    text-transform: uppercase;
+    color: var(--decoration-color);
+  }
 }
