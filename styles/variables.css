@@ -3,22 +3,29 @@
   и их переопределение под различные устройства
 */
 :root {
+  /*Обьявление всех цветов*/
   --black: #000028;
   --red: #ff0070;
   --pink: #f1b2ce;
+  --bg-pink: #fff1f7;
   --fuchsia: #db00ff;
   --light-black: #353430;
   --light-pink: #ffc2e6;
   --shadow-pink: #ff8dcb;
-  --accent-color: var(--red);
+  
+  /*Переменные цвета*/
   --bg-color: var(--black);
   --text-color: var(--pink);
+  --accent-color: var(--red);
   --outline-color: var(--pink);
   --title-text-color: var(--black);
+  --link-shadow-color: var(--red);
+  --bottom-border-color: var();
   --content-title-color: var(--red);
-  --header-bg-color: var(--red);
   --main-title-text-color: var(--fuchsia);
-  --decoration-color: var(--red);
-  --bg-image: url(/images/cover-image-dark.png);
+  --button-border-color: var(--red);
   --semi-transparent: rgba(255, 0, 112, 0.4);
+
+  /*Переменная фонового изображения*/
+  --bg-image: url(/images/cover-image-dark.png);
 }
